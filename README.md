@@ -16,8 +16,6 @@ Je doporučeno použít **virtuální prostředí** a instalovat z **příkazov�
 
 ### Vytvoření a aktivace virtuálního prostředí
 
-> Název adresáře může být libovolný (často `.venv` nebo `venv`).
-
 **Windows – PowerShell**
 
 ```powershell
@@ -39,20 +37,13 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-### Instalace závislostí z `requirements.txt`
+### Instalace  `requirements.txt`
 
 ```bash
 python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-### Ověření instalace
-
-```bash
-python -c "import requests, bs4; print('requests:', requests.__version__, '| bs4:', bs4.__version__)"
-```
-
----
 
 ## Spuštění projektu
 
